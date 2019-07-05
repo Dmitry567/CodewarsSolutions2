@@ -45,3 +45,17 @@ return formatPhone.join('');
   function noSpace(x){
    return x.replace(/\s/g, ''); 
   }
+  
+  * https://www.codewars.com/kata/get-list-sum-recursively/train/javascript/5d158f3306317c0022af2122
+  
+  ```javaScript```
+  
+  Get list sum recursively
+  
+  function sumR(x) {
+    if(x.length === 0){
+    return 0;
+    }else{
+    return x.shift () + sumR(x);
+    }
+  }
