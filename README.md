@@ -35,3 +35,13 @@ return formatPhone.join('');
    if (/^4(\d{12}|\d{15})$/.test(number)) return 'VISA'
    return 'Unknown'
  }
+ 
+ *https://www.codewars.com/kata/remove-string-spaces/train/javascript
+ 
+ ```javaScript```
+ 
+  Remove String Spaces
+  
+  function noSpace(x){
+   return x.replace(/\s/g, ''); 
+  }
