@@ -59,3 +59,14 @@ return formatPhone.join('');
     return x.shift () + sumR(x);
     }
   }
+  
+  * https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+  
+  ```javaScript```
+  
+  Do I get a bonus?
+  
+  function bonusTime(salary, bonus) {
+    return bonus ? `£${10 * salary}` : `£${salary}`;
+  }
+  
