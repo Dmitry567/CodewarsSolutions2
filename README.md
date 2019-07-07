@@ -70,3 +70,16 @@ return formatPhone.join('');
     return bonus ? `£${10 * salary}` : `£${salary}`;
   }
   
+  * https://www.codewars.com/kata/initialize-my-name/train/javascript/5d182fca0fb98b001c583d46
+  
+  ```javaScript```
+  
+  Initialize my name
+  
+  function initializeNames(name){
+    let arr = name.split(' ');
+     for (let i = 1; i < arr.length - 1; i++) 
+         arr[i] = arr[i].charAt(0) + '.';
+     return arr.join(' ');
+  }
+  
