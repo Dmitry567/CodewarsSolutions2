@@ -83,7 +83,3 @@ return formatPhone.join('');
      return arr.join(' ');
   }
   
-  
- * new solution 
- * second solution
-  
