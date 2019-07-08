@@ -82,4 +82,4 @@ return formatPhone.join('');
          arr[i] = arr[i].charAt(0) + '.';
      return arr.join(' ');
   }
-  
+  merge branch 
