@@ -104,3 +104,19 @@ return formatPhone.join('');
    return str.endsWith(ending);
   }
   
+  * https://www.codewars.com/kata/spongebob-meme/train/javascript
+  
+  ```javaScript```
+  
+  sPoNgEbOb MeMe
+  
+  function spongeMeme(s) {
+    let str = '';
+    for(let i = 0; i < s.length; i++){
+      if(i % 2 == 0){ str += s[i].toUpperCase();
+      }else{ str += s[i].toLowerCase();
+      }
+  }
+  return str;
+  }
+  
