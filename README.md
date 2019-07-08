@@ -83,3 +83,14 @@ return formatPhone.join('');
      return arr.join(' ');
   }
   merge branch 
+  
+  * https://www.codewars.com/kata/returning-strings/train/javascript
+  
+  ```javaScript```
+  
+  Returning Strings
+  
+  function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+  }
+  
