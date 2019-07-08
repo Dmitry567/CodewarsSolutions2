@@ -94,3 +94,13 @@ return formatPhone.join('');
     return `Hello, ${name} how are you doing today?`;
   }
   
+  * https://www.codewars.com/kata/string-ends-with/train/javascript/5d22c23d3c70c00021be4fd1
+  
+  ```javaScript```
+  
+  String ends with?
+  
+  function solution(str, ending){
+   return str.endsWith(ending);
+  }
+  
