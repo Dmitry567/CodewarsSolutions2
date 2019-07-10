@@ -120,3 +120,19 @@ return formatPhone.join('');
   return str;
   }
   
+  * https://www.codewars.com/kata/print-a-rectangle-using-asterisks/train/javascript
+  
+  ```javascript```
+  
+  Print a Rectangle Using Asterisks
+  
+  function getRectangleString(w, h) {
+    if (w === 1&&h === 1) return '*\r\n'
+    if (w === 1&&h === 2) return '*\r\n*\r\n'
+      let start = '*' . repeat(w) + '\r\n'
+      let mid = '*'+' '.repeat(w - 2) +'*'+'\r\n'
+      let end = mid.repeat(h - 2)
+    return start + end + start;
+  }
+  
+  
