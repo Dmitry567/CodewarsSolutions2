@@ -134,5 +134,26 @@ return formatPhone.join('');
       let end = mid.repeat(h - 2)
     return start + end + start;
   }
+  * https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
   
+  ```javaScript```
+  
+  Maximum Triplet Sum (Array Series #7)
+  
+  function maxTriSum(numbers){
+    let sum = 0;
+      let res = numbers.sort((a, b) => b - a);
+      let arr = [];
+      for(let i = 0; i < res.length; i++){
+        if (arr.length >= 3){
+          break
+          }
+          if(!arr.includes(res[i])){
+            arr.push(res[i]);
+            sum += res[i];
+            }
+          }
+         return sum;
+         
+  }
   
