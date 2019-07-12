@@ -157,3 +157,19 @@ return formatPhone.join('');
          
   }
   
+  *https://www.codewars.com/kata/string-average/train/javascript
+  
+  ```javaScript```
+  
+  String average
+  
+  function averageString(str) {
+    let num = 'zero,one,two,three,four,five,six,seven,eight,nine'.split(',');
+    let arr = str.split(/\s/);
+    let all = arr.map(s =>num.indexOf(s));
+    let avg = all.reduce((a,b) => a + b,0)/arr.length;
+    let na = 'n/a';
+    return all.some(n =>n<0) ? na : num[Math.floor(avg)] || na;
+    
+  }
+  
