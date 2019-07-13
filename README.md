@@ -173,3 +173,27 @@ return formatPhone.join('');
     
   }
   
+  * https://www.codewars.com/kata/numerical-palindrome-number-5-1/train/javascript
+  
+  ```javaScript```
+  
+  Numerical Palindrome #5
+  
+  function palindrome(num) { 
+    if(typeof num !== 'number' || num < 0) return "Not valid";
+    if(num < 10) return false;
+    num = num.toString().split('').sort();
+    console.log(num);
+    let count = 0;
+    for(let i = 0; i < num.length - 1; i){
+     if(num[i] === num[i + 1]){
+      count = count + 2;
+      i = i + 2;
+     }else i++;
+    }
+    if(num.length === count || num.length === count +1){
+    return true;
+    }else return false;
+    
+  }
+  
