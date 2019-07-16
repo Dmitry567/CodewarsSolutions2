@@ -173,6 +173,16 @@ return formatPhone.join('');
     
   }
   
+  *https://www.codewars.com/users/Favor/completed_solutions
+  
+  ```javaScript```
+  
+  Ordering the words!
+  
+  function orderWord(s){
+   return !s||s.length==0?"Invalid String!":s.split('').sort().join('')
+  }
+  
   * https://www.codewars.com/kata/numerical-palindrome-number-5-1/train/javascript
   
   ```javaScript```
