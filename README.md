@@ -172,6 +172,7 @@ return formatPhone.join('');
     return all.some(n =>n<0) ? na : num[Math.floor(avg)] || na;
     
   }
+  * 
   
   *https://www.codewars.com/users/Favor/completed_solutions
   
@@ -231,3 +232,12 @@ return formatPhone.join('');
       return true;
   }
   
+  * https://www.codewars.com/kata/shortest-word/train/javascript
+  
+  ```javaScript```
+  
+  Shortest Word
+  
+  function findShort(s){
+      return Math.min(...s.split(" ").map (s => s.length));
+  }
