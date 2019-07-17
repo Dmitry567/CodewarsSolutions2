@@ -241,3 +241,18 @@ return formatPhone.join('');
   function findShort(s){
       return Math.min(...s.split(" ").map (s => s.length));
   }
+  
+  * https://www.codewars.com/kata/double-char/train/javascript
+  
+  ```javaScript```
+  
+  Double Char
+  
+  function doubleChar(str) {
+    let doubledChar = "";
+    for ( let i = 0; i < str.length; i++){
+      doubledChar += str[i] + str[i];
+  }
+  
+   return doubledChar;
+   }
