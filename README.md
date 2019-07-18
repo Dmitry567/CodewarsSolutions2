@@ -256,3 +256,18 @@ return formatPhone.join('');
   
    return doubledChar;
    }
+   
+   *https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no/train/javascript
+   
+   ```javaScript```
+   
+   Convert boolean values to strings 'Yes' or 'No'.
+   
+   function boolToWord( bool ){
+     if (bool === true) {
+      return 'Yes'
+      }else{
+        return 'No'
+      }   
+   }
+
