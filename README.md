@@ -270,4 +270,18 @@ return formatPhone.join('');
         return 'No'
       }   
    }
+   
+   *https://www.codewars.com/kata/simple-simple-simple-string-expansion/train/javascript/5d30bca39946160017b4b994
+   
+   ```javaScript```
+   
+   Simple Simple Simple String Expansion
+   
+   function stringExpansion(s) {
+     let res = "", x = 1;
+     for (let i = 0; i <s.length; i++)
+        (s[i] == +s[i]) ? x = +s[i] : res += s[i].repeat(x);
+     return res;
+   }
+   
 
