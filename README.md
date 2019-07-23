@@ -332,6 +332,17 @@ return formatPhone.join('');
  
  Convert number to reversed array of digits
  
+ *https://www.codewars.com/kata/fake-binary/train/javascript
+ 
+ Fake Binary
+ 
+ function fakeBin(x){
+   return x.split('').map(function(v){
+      return v < 5 ? '0': '1'
+   }).join('')
+   
+   }
+ 
  function digitize(n) {
    return n.toString().split('').reverse().map(Number);
  }
