@@ -342,6 +342,14 @@ return formatPhone.join('');
    }).join('')
    
    }
+   
+   *https://www.codewars.com/kata/capitalization-and-mutability/train/javascript
+   
+   Capitalization and Mutability
+   
+   function capitalizeWord(word) {
+     return word[0].toUpperCase () + word.slice(1);
+   }
  
  function digitize(n) {
    return n.toString().split('').reverse().map(Number);
