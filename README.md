@@ -326,6 +326,16 @@ return formatPhone.join('');
    return n.toString(2).replace(/0/g,'').length;
  };
  
+ *https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/train/javascript/5d365c557dbc0500206ba545
+ 
+ ```javaScript```
+ 
+ Convert number to reversed array of digits
+ 
+ function digitize(n) {
+   return n.toString().split('').reverse().map(Number);
+ }
+ 
    
    
    
