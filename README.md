@@ -316,6 +316,16 @@ return formatPhone.join('');
    return s.repeat(n);
  }
  
+ *https://www.codewars.com/kata/bit-counting/train/javascript
+ 
+ ```javaScript```
+ 
+ Bit Counting
+ 
+ var countBits = function(n) {
+   return n.toString(2).replace(/0/g,'').length;
+ };
+ 
    
    
    
