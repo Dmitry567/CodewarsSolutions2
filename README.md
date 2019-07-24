@@ -350,6 +350,25 @@ return formatPhone.join('');
    function capitalizeWord(word) {
      return word[0].toUpperCase () + word.slice(1);
    }
+   
+   *https://www.codewars.com/kata/vowel-count/train/javascript
+   
+   ```javaScript```
+   
+   Vowel Count
+   
+   function getCount(str) {
+      str = str.toLowerCase();
+     var vowels = 'aeiou';
+     var vowelCount = 0;
+     for(var i = 0; i < str.length; i++) {
+       if (vowels.indexOf(str[i]) !== -1) {
+         vowelCount++;
+       }
+     }
+     return vowelCount;
+   }
+     
  
  function digitize(n) {
    return n.toString().split('').reverse().map(Number);
