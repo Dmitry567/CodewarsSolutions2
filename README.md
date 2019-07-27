@@ -374,6 +374,21 @@ return formatPhone.join('');
    return n.toString().split('').reverse().map(Number);
  }
  
+ *https://www.codewars.com/kata/you-only-need-one-beginner/train/javascript
+ 
+ ```javaScript```
+ 
+ You only need one - Beginner
+ 
+ function check(a,x){
+    if  (a.includes(x)){
+     return true;
+     } else {
+       return false;
+     }
+ };
+ 
+ 
    
    
    
