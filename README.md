@@ -398,6 +398,13 @@ return formatPhone.join('');
    return bucket.includes('gold');
  }
  
+ *https://www.codewars.com/kata/kata-example-twist/train/javascript
+ 
+ Kata Example Twist
+ 
+ var websites = [];
+  while(websites.length < 1000) websites.push("codewars")
+ 
  
    
    
