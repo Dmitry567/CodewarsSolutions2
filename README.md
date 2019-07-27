@@ -388,6 +388,16 @@ return formatPhone.join('');
      }
  };
  
+ *https://www.codewars.com/kata/man-in-the-west/train/javascript
+ 
+ ```javaScript```
+ 
+ Man in the west
+ 
+ function checkTheBucket(bucket){
+   return bucket.includes('gold');
+ }
+ 
  
    
    
