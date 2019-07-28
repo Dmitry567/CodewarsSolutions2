@@ -414,6 +414,16 @@ return formatPhone.join('');
   function invert(array) {
      return array.map(x => x === 0 ? x : - x) ;
   }
+  
+  *https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript
+  
+  ```javaScript```
+  
+  Remove duplicates from list
+  
+  function distinct(a) {
+    return [...new Set(a)];
+  }
  
    
    
