@@ -404,7 +404,16 @@ return formatPhone.join('');
  
  var websites = [];
   while(websites.length < 1000) websites.push("codewars")
- 
+  
+  *https://www.codewars.com/kata/invert-values/train/javascript
+  
+  ```javaScript```
+  
+  Invert values
+  
+  function invert(array) {
+     return array.map(x => x === 0 ? x : - x) ;
+  }
  
    
    
