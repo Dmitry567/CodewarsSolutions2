@@ -424,6 +424,16 @@ return formatPhone.join('');
   function distinct(a) {
     return [...new Set(a)];
   }
+  
+  *https://www.codewars.com/kata/write-shortest-function-to-calculate-average-number-of-array/train/javascript
+  
+  ```javaScript```
+  
+  Write shortest function to calculate Average number of Array
+  
+  function avg(a){
+    return a.reduce((a, b)=>a + b,0)/a.length;
+  }
  
    
    
