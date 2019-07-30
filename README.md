@@ -434,6 +434,27 @@ return formatPhone.join('');
   function avg(a){
     return a.reduce((a, b)=>a + b,0)/a.length;
   }
+  
+  *https://www.codewars.com/kata/array-array-array/train/javascript
+  
+  ```javaScript```
+  
+  Array Array Array
+  
+  function explode(x){
+     if(typeof x[1] === 'number' && typeof x[0] ==='number'){
+     const L = x[0] + x[1];
+     return Array.from({length : L}).fill(x);
+     }
+      if(typeof x[1] ==='number' || typeof x[0] ==='number'){
+      let L = 0;
+      typeof x[0] ==='number'?L=x[0]:L=x[1]
+      return Array.from({length : L}).fill(x)
+      }
+       if(typeof x[1] !=='number'&& typeof x[0] !=='number'){
+      return 'Void!'
+      }
+  }
  
    
    
