@@ -441,6 +441,7 @@ return formatPhone.join('');
   
   Array Array Array
   
+  
   function explode(x){
      if(typeof x[1] === 'number' && typeof x[0] ==='number'){
      const L = x[0] + x[1];
@@ -455,6 +456,20 @@ return formatPhone.join('');
       return 'Void!'
       }
   }
+  
+  *https://www.codewars.com/kata/a-gift-well-spent/train/javascript
+  
+  ```javaScript```
+  
+  A Gift Well Spent
+  
+  var buy = function(x, arr){
+    for(var i= 0; i < arr.length -1; ++i)
+      for(var j =i +1; j < arr.length; ++j)
+        if(arr[i] + arr[j] == x)
+          return [i, j]
+    return null;
+  };
  
    
    
