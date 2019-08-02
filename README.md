@@ -527,6 +527,8 @@ return formatPhone.join('');
       public void setNumber(int number) {
           this.number = number;
       }
+
+      
   
       public String getStringValue() {
           return stringValue;
@@ -553,6 +555,26 @@ return formatPhone.join('');
           this.anObject = anObject;
       }
   }
+  
+  *https://www.codewars.com/kata/playing-with-cubes-i/train/java/5d42377bd885f90019935650
+  
+  ```java```
+  
+  Playing with cubes I
+  
+  public class Cube {
+      int side;
+  
+      int getSide(){
+        return side;
+      }
+  
+      void setSide(int side){
+          this.side = side;
+      }
+  
+  }
+
 
 
  
