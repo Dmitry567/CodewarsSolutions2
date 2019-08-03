@@ -574,6 +574,17 @@ return formatPhone.join('');
       }
   
   }
+  
+  *https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript
+  
+  ```javaScript```
+  
+  A Needle in the Haystack
+  
+  function findNeedle(haystack) {
+    return "found the needle at position " + haystack.indexOf("needle");
+  }
+
 
 
 
