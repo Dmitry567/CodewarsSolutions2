@@ -584,6 +584,16 @@ return formatPhone.join('');
   function findNeedle(haystack) {
     return "found the needle at position " + haystack.indexOf("needle");
   }
+  
+  *https://www.codewars.com/kata/will-you-make-it/train/javascript
+  
+  ```javaScript```
+  
+  Will you make it?
+  
+  const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return mpg * fuelLeft >= distanceToPump;
+  };
 
 
 
