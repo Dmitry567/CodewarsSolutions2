@@ -604,6 +604,16 @@ return formatPhone.join('');
   function century(year) {
     return Math.ceil(year/100);
   }
+  
+  *https://www.codewars.com/kata/third-angle-of-a-triangle/train/javascript
+  
+  ```javaScript```
+  
+  Third Angle of a Triangle
+  
+  function otherAngle(a, b) {
+    return 180-(a + b);
+  }
 
 
 
