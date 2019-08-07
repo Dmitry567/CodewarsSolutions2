@@ -594,6 +594,16 @@ return formatPhone.join('');
   const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return mpg * fuelLeft >= distanceToPump;
   };
+  
+  *https://www.codewars.com/kata/century-from-year/train/javascript
+  
+  ```javaScript```
+  
+  Century From Year
+  
+  function century(year) {
+    return Math.ceil(year/100);
+  }
 
 
 
