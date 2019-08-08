@@ -614,6 +614,16 @@ return formatPhone.join('');
   function otherAngle(a, b) {
     return 180-(a + b);
   }
+  
+  *https://www.codewars.com/kata/discover-the-original-price/train/javascript
+  
+  ```javaScript```
+  
+  Discover The Original Price
+  
+  function discoverOriginalPrice(discountedPrice, salePercentage){
+    return(discountedPrice/((100-salePercentage))*100).toFixed(2)*1
+  }
 
 
 
