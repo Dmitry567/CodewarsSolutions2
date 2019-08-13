@@ -624,6 +624,19 @@ return formatPhone.join('');
   function discoverOriginalPrice(discountedPrice, salePercentage){
     return(discountedPrice/((100-salePercentage))*100).toFixed(2)*1
   }
+  
+  
+  *https://www.codewars.com/kata/square-n-sum/train/javascript
+  
+  ```javaScript```
+  
+  Square(n) Sum
+  
+  function squareSum(numbers){
+     return numbers.reduce(function(sum, n){
+      return (n*n) + sum;
+      }, 0)
+  }
 
 
 
