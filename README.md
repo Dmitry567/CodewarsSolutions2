@@ -637,6 +637,16 @@ return formatPhone.join('');
       return (n*n) + sum;
       }, 0)
   }
+  
+  *https://www.codewars.com/kata/find-nearest-square-number/train/javascript
+  
+  ```javaScript```
+  
+  Find Nearest square number
+  
+  function nearestSq(n){
+      return Math.round(n**0.5)**2
+  }
 
 
 
